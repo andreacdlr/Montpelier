@@ -1,0 +1,266 @@
+/*global*/
+html,body{
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+a{
+  text-decoration: none;
+
+}
+h1,h2,h3{
+  font-family: 'Roboto Condensed', sans-serif;
+  
+}
+
+p{
+ font-family: 'Merriweather', serif; 
+}
+/*nav-bar*/
+header{
+  position: fixed;
+  z-index: 100; 
+  background-color:#45ca58; 
+}
+header ul{
+  list-style: none;
+  width: 60%;
+  padding: 3% 0;
+}
+header a{
+  padding: 0 5px;
+  font-weight: 300;
+  font-size: em;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+header li{
+  padding: 0 2%;
+  display: inline-block;
+}
+header li a:hover{
+  color: #E6E6E6;
+  transition:0.5s;
+  border-bottom: 3px solid white;
+  padding-bottom: 5px;
+}
+.navbar-brand>img {
+  width: 100%;
+  padding: 5% 5% 0;
+}
+.navbar-brand>img:hover{
+  opacity: 0.8;
+}    
+.hero-image{
+	background-image: url(../img/INDm219a.jpg);
+  height: 70%;
+  background-size: cover;
+}
+
+.shadow{
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 70%;
+	width: 100%;
+	position: absolute;
+}
+
+/*section-main*/
+.main{
+  font-family: 'Raleway', sans-serif;
+  z-index: 2;
+  position: absolute;
+  margin-top: 22%;
+  padding: 0% 10%;
+}
+.main h1{
+  font-size: 3em;
+}
+
+
+/*llevamos*/
+.pd-5{
+  padding: 5%;
+}
+.llevamos h2{
+  color: #45ca58;
+  font-size: 2.3em;
+  font-weight: 400;
+  
+}
+.llevamos p {
+  padding: 2% 20%;
+  line-height: 1.8;
+}
+.icono{
+  width: 8%;
+}
+
+/*types*/
+.bg-black {
+    background-color: #272727;
+}
+.types p{
+  padding: 3% 15% 6%;
+}
+.types h2{
+   color: #fff;
+   font-size: 2.5em; 
+}
+.types i{
+  color: white;
+  font-size: 60px;
+  border: solid white 1px;
+  padding: 4%;
+}
+.types h3{
+  padding-top: 4%;
+  font-size: 1.5em;
+}
+
+/*share*/
+.share p{
+  padding: 3% 21%;
+  line-height: 1.8;
+}
+.share h3{
+  color: #45ca58;
+   font-size: 2.5em; 
+   font-weight: 300;
+}
+/* ============================== HOVER STYLE ============================== */
+/* =============== STYLE 1 =============== */
+.nd-style-1 .nd-icon {
+  top: 150px;
+}
+
+/*contact*/
+
+.contact{
+  background: url("../img/contact.jpg");
+  background-attachment: fixed;
+}
+.contact h2{
+  padding: 9% 0 3% 0;
+  color: #fff;
+  font-size: 3.2em;
+  font-weight: 400;
+}
+.contact h3{
+  color: #fff;
+  padding:0 0 8%;
+  font-weight: 200;
+  font-size: 1.8em;
+}
+.contact i{
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+.contact span{
+  font-size: 1em;
+  color: white;
+  font-weight: 400;
+  font-family: 'Arial', sans-serif;
+  padding:2% 9% 4% 8%;
+  display: inline-block;
+}
+.info-contact{
+  padding-left: 9%;
+}
+.contact-text{
+  padding:0 10% 7% 9%;
+  font-size: 1em;
+  color: white;
+}
+#contact-form .textinput{
+  width: 80%;
+  color: white;
+  border: 1px white solid;
+  margin-bottom: 2%;
+  border-width: 1px;
+  padding: 2% ;
+  font-size: 1em;
+}
+#contact-form .textblock{
+  width: 80%;
+  color: white;
+  height: 160px;
+  margin-bottom: 2%;
+  padding:2%;
+  border: 1px white solid;
+  font-size: 1em;
+  font-family: Arial;
+}
+#contact-form .submit-btn{
+  width: 30%;
+  padding:3%;
+  color: white;
+  background-color:#45ca58;
+  border:none;
+  font-size: 1em;
+  margin-bottom: 5%;
+}
+#contact-form .submit-btn:hover{
+    background-color: white;
+    color:#45ca58;
+    font-weight: 600;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+/*footer*/
+.franja{
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 3%;
+ }
+ .franja i{
+  color:rgba(0, 0, 0, 0.9);
+  font-size: 45px;
+  background-color: #FFF;
+  opacity: 0.1;
+  border-radius: 50%; 
+  margin-right: 2%;
+}
+.franja i:hover{
+  opacity: 1;
+  transition:0.1s;
+  -webit-transition:0.1s;
+  -moz-transition:0.1s;
+  -ms-transition:0.1s;
+  -o-transition:0.1s;
+  background-color:#45ca58; 
+}
+.finish{
+  background-color:rgba(0, 0, 0, 0.9);
+  border-top: 1px solid #2E2E2E;
+  padding: 2%;
+}
+ .finish p{
+  font-size: 0.7em;
+}
+/*utilities*/
+.pd-3 {
+  padding: 3%;
+}
+.pd-5-10{
+  padding: 5% 10%;
+}
+
+.pd-1-3{
+  padding: 1% 2.5%;
+}
+.pd-1-2{
+  padding: 1% 1.5%;
+}
+.pd-1-1{
+  padding: 1% 2%;
+}
+
+
+
+
+
+
+
